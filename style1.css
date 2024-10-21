@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/*!----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*!----------{  Create       :   21/10/2024   }----------_*/
+
+/*_----------{  My Color Variables  }----------_*/
+:root{
+    --dark-red: #dc3545;
+    --red: #fc2a1b;
+    --pink: #e83e8c;
+    --purple: #6f42c1;
+    --indigo: #6610f2;
+    --blue: #007bff;
+    --dark-blue: #17a2b8;
+    --light-blue: #0dcaf0;
+    --light-green: #20c997;
+    --green: #28a745;
+    --yellow: #ffc107;
+    --orange: #fd7e14;
+    --highlight-x: #fff3cd;
+    --highlight-y: #ffff5b;
+    --black: #000;
+    --key: #131514;
+    --dark: #343a40;
+    --gray: #6c757d;
+    --white: #fff;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --light-border-color: #dee2e6;
+    --dark-border-color: #6c757d;
+    /*_----------{  My Responsive Variables  }----------_*/
+  --break-point-xs: 0;
+  --break-point-sm: 576px;
+  --break-point-md: 768px;
+  --break-point-lg: 992px;
+  --break-point-xl: 1200px;
+  --break-point-xxl: 1400px;
+}
+/*!----------{  Last Update   :   21/10/2024   }----------_*/
+
+/*_----------{  ^_^  }----------_*/
+
+/*todo--------------{  Start Navbar Section Style  }--------------_*/
+.My-nav li a{
+  color: var(--key) !important;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.My-nav li a:hover{
+  color: var(--white) !important;
+  text-decoration: underline;
+}
+.my-form .btn-1{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*//--------------{  Navbar Section Style  }--------------//*/
+
+/*todo--------------{  Start banner Section Style  }----------------_*/
+.my-banner img{
+  height: 100vh;
+  width: 100%;
+}
+/*//--------------{  banner Section Style  }----------------//*/
+
+/*todo--------------{  Start Footer Section Style  }---------------_*/
+.my-footer h6{
+  font-size: 26px;
+  color: var(--green);
+}
+.my-footer a{
+  font-size: 15px;
+  color: var(--blue);
+  line-height: 30px;
+}
+/*//--------------{  Footer Section Style  }--------------//_*/
+
+/*_----------{  Add Description  }----------_*/
+
+
+/*//----------{  Description  }----------//*/
