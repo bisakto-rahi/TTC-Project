@@ -70,6 +70,26 @@
 }
 /*//--------------{  banner Section Style  }----------------//*/
 
+.card-body h6{
+  font-size: 22px;
+}
+.my-icon{
+  font-size: 20px !important;
+}
+.card img{
+  position: relative;
+}
+.label-1{
+  position: absolute;
+  color: var(--gray-400);
+  background-color: var(--green);
+  width: 65px;
+  padding-left: 3px;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-top: 2px;
+  border: 1px solid var(--black);
+}
 /*todo--------------{  Start Footer Section Style  }---------------_*/
 .my-footer h6{
   font-size: 26px;
