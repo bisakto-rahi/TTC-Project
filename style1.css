@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*!----------{  Author      :   Bisakto-Rahi  }----------_*/
-/*!----------{  Create       :   21/10/2024   }----------_*/
+/*!----------{  Create       :   23/10/2024   }----------_*/
 
 /*_----------{  My Color Variables  }----------_*/
 :root{
@@ -68,6 +68,7 @@
   height: 100vh;
   width: 100%;
 }
+<<<<<<< HEAD
 
 .img-zoom {
   transition: transform 0.4s ease;
@@ -77,8 +78,13 @@
   transform: scale(1.2);
 }
 
+=======
+>>>>>>> 3a4b2a17a1ae37006c8273db878fe068e9460d4f
 /*//--------------{  banner Section Style  }----------------//*/
 
+/*todo--------------{  Start Extra Section Style  }---------------_*/
+
+/*---------{  product page  Style  }--------*/
 .card-body h6{
   font-size: 22px;
 }
@@ -99,7 +105,20 @@
   margin-top: 2px;
   border: 1px solid var(--black);
 }
+/*//---------{  product page  Style  }--------//*/
+
+/*---------{  product details page  Style  }--------*/
+.img-zoom {
+  transition: transform 0.5s ease;
+}
+
+.img-zoom:hover {
+  transform: scale(1.4);
+}
+/*//---------{  product details page  Style  }--------//*/
+
 /*todo--------------{  Start Footer Section Style  }---------------_*/
+
 .my-footer h6{
   font-size: 26px;
   color: var(--green);
